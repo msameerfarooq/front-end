@@ -1,0 +1,59 @@
+.Title
+{
+    font-weight: bold;
+    font-style: italic;
+    /* padding-left: 20px; */
+    font-family: cursive;
+    text-align: center;
+    padding: 12px;
+    text-decoration: solid;
+    font-size: 25px;
+    line-height: 20px;
+    border-radius: 5px;
+    /* border-bottom-color: darkblue; */
+    border: 10px;
+    border-color: cadetblue;
+    border-style: groove;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.eachHotel {
+    padding: 3rem;
+    padding-top: unset;
+    display: inline-block;
+    margin: auto;
+    margin-left: 15rem;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: 4px;
+    border-color: burlywood;
+    border-style: inset;
+    width: auto;
+    height: auto;
+}
+
+.eachHotel:hover
+{
+    border-color:aqua;
+    text-shadow: 2px 2px wheat;
+    cursor: grab;
+}
+
+.HotelName
+{
+    font-style: oblique;
+    font-weight: 900;
+    font-kerning: normal;
+}
+
+.eachFacility
+{
+    display: flex;
+}
+
+.TickIcon, .CrossIcon
+{
+    margin-right: 10px;
+}

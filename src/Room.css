@@ -1,0 +1,151 @@
+.Box {
+  border-radius: 5px;
+  border: 3px solid aqua;
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  margin: 3px;
+}
+.Title:hover {
+  font-size: 30px;
+}
+
+.ComingDays {
+  border-color: blueviolet;
+}
+
+.BoxList {
+    margin-top: 10rem;
+    display: flow-root;
+    margin-left: 600px;
+    position: absolute;
+    width: 750px;
+}
+
+.PastDays {
+  background-color: darkgray;
+  border-radius: 20px;
+}
+
+.Booked {
+  color: azure;
+  background-color: cadetblue;
+}
+
+.unBooked {
+  color: green;
+  border-color: darkgray;
+}
+
+.ComingDaysunBooked:hover {
+  border-color: cornflowerblue;
+}
+
+.Address {
+  align-content: center;
+  margin-left: 45%;
+}
+
+.eachHotel {
+  padding: 3rem;
+  display: inline-block;
+  margin: auto;
+  margin-left: 15rem;
+  margin-top: auto;
+  border-radius: 25px;
+  border: 4px;
+  border-color: burlywood;
+  border-style: inset;
+  width: auto;
+  height: auto;
+}
+
+.Details {
+  margin-left: 15rem;
+  padding: 1%;
+}
+
+.Front {
+float: left;}
+
+.Hotel_Perks {
+  display: flex;
+}
+
+.eachFacility {
+  margin-left: 25px;
+}
+
+.DoneButton {
+  display: inline-block;
+  font-style: italic;
+  background-color: lavender;
+  padding: 15px;
+  margin-left: 48%;
+  margin-top: 70px;
+}
+
+.DoneButton:hover {
+  background-color: cornflowerblue;
+  cursor: progress;
+}
+
+.pic2 {
+  background-image: url("pic2.jpg");
+  width: 540px;
+  height: 360px;
+}
+.displayPIC {
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.pic1 {
+  background-image: url("pic1.jpg");
+  width: 540px;
+  height: 360px;
+}
+
+.pic3 {
+  background-image: url("pic3.jpg");
+  width: 508px;
+  height: 330px;
+}
+
+.pic4 {
+  background-image: url("pic4.jpg");
+  width: 540px;
+  height: 360px;
+}
+.overlay {
+  margin-left: 250px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 5%;
+  height: fit-content;
+  padding: 60px;
+  width: -moz-fit-content;
+  width: max-content;
+  opacity: 0;
+  transition: 1s ease-in-out;
+  background-color: honeydew;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
