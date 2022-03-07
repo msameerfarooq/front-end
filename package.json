@@ -2,7 +2,8 @@
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
-  "host": "https://myhotelapplication.herokuapp.com/",
+  "host": "https://myhotelapplication.herokuapp.com",
+  "proxy": "https://msameerfarooq.pythonanywhere.com",
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
