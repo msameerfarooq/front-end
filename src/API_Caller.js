@@ -1,11 +1,11 @@
 import axios from "axios";
 
 function GetAllHotels() {
-  return axios({method: "GET", url: "http://msameerfarooq.pythonanywhere.com/myapp/Hotel/" });
+  return axios({ method: "GET", url: "http://msameerfarooq.pythonanywhere.com/myapp/Hotel/" });
 }
 
 function GetCountries() {
-  return axios({method: "GET", url: "http://msameerfarooq.pythonanywhere.com/myapp/Country/" });
+  return axios({ method: "GET", url: "http://msameerfarooq.pythonanywhere.com/myapp/Country/" });
 }
 
 function GetCountryDetails(cID) {
